@@ -55,7 +55,7 @@ console.log(array3);
 //   - 変数「poppedValue」をconsole.logで出力して、'タスク3'が表示されることを確認する
 const array4 = ['タスク1', 'タスク2', 'タスク3'];
 console.log(array4);
-const poppedValue = array4.pop('タスク3');
+const poppedValue = array4.pop();
 console.log(array4);
 console.log(poppedValue);
 
@@ -78,6 +78,6 @@ console.log(array5);
 //   - 変数「shiftedValue」をconsole.logで出力して、'タスク1' が表示されることを確認する
 const array6 = ['タスク1', 'タスク2', 'タスク3'];
 console.log(array6);
-const shiftedValue = array6.shift('タスク1');
+const shiftedValue = array6.shift();
 console.log(array6);
 console.log(shiftedValue);
